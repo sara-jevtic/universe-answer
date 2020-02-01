@@ -1,0 +1,30 @@
+{
+  "name": "universe-answer",
+  "version": "1.0.0",
+  "description": "An answering tool for fun",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sara-jevtic/universe-answer.git"
+  },
+  "keywords": [
+    "universe",
+    "answer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sara-jevtic/universe-answer/issues"
+  },
+  "homepage": "https://github.com/sara-jevtic/universe-answer#readme"
+}
