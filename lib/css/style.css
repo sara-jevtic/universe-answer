@@ -1,12 +1,12 @@
 body {
-    background-image: url(fantasy-3645269_960_720.jpg);
+    background-image: url(../images/fantasy-3645269_960_720.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
 
 h1 {
-    
+
     font-weight: 300;
     text-transform: uppercase;
     margin-top: 20px;
@@ -15,7 +15,7 @@ h1 {
     font-size: 300%;
     word-spacing: 4px;
     letter-spacing: 1px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .row {
@@ -35,7 +35,7 @@ h1 {
     font-weight: 30px;
     text-decoration: none;
     border-radius: 205px;
-    transition: background-color 0.3s, border 0.3s, color 0.3s;  
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
 .btn-full:link,
