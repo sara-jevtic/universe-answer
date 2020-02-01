@@ -6,9 +6,6 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {
-    "lodash": "^4.17.15"
-  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
