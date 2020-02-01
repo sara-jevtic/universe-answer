@@ -6,7 +6,6 @@ body {
 }
 
 h1 {
-
     font-weight: 300;
     text-transform: uppercase;
     margin-top: 20px;
@@ -23,9 +22,30 @@ h1 {
     margin: 0;
 }
 
-.contact-form {
+.input-form {
     width: 50%;
-    margin: 90px 30px 40px 350px;
+    display: inline-block;
+
+    margin: 90px 30px 20px 350px;
+}
+
+#error {
+    color: red;
+}
+
+.submit-form {
+    width: 50%;
+
+    display: inline-block;
+
+    margin: 20px 30px 40px 350px;
+}
+
+.answer-form {
+    width: 50%;
+    display: inline-block;
+
+    margin: 20px 30px 40px 350px;
 }
 
 .btn:link,

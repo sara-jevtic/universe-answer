@@ -5,57 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/grid">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-
-<img src="images/crno.jpg" alt="C" usemap="#bili" weight="5px" height="5px">
-    <map name="bili">
-	   <area shape="circle" coords="2,2,1" onclick="myFunction()">
-    </map>
-    <script>
-        function myFunction() {
-            alert ("Test!");
-        }
-    </script>
-    <h1><em>Are you a beliver?</em></h1>
-            <div class="row">
-                <form method="post" action="#" class="contact-form">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="text" placeholder="Question" required>
-                    </div>
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="text" placeholder="Universe, please answer me" required>
-                    </div>
-                </form>
+    <img src="images/crno.jpg" alt="C" usemap="#bili" weight="5px" height="25px" onclick="myFunction()">
+    <h1><em>Are you a believer?</em></h1>
+    <div class="row">
+        <form class="input-form">
+            <div class="col span-1-of-3">
+                <label>&nbsp;</label>
             </div>
-            <a class="btn btn-full" href="#">Submit</a>
-            <a class="btn btn-ghost" href="#">Reset</a>
-            <div class="row">
-                <form method="post" action="#" class="contact-form">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3" id="andra">
-                        <p></p>
-                    </div>
-                </form>
+            <div class="col span-2-of-3">
+                <input id="question" type="text" placeholder="Question" required>
             </div>
+            <div class="col span-1-of-3">
+                <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+                <input type="text"  id="encoder" placeholder="Universe, please answer me" required onInput="onEncodedInput()">
+            </div>
+            <div class="col span-3-of-3">
+                <label id="error"> </label>
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <form class="submit-form">
+            <div class="col span-1-of-3">
+            </div>
+            <div class="col span-2-of-3">
+                <button id="submit" class="btn btn-secondary btn-lg" onclick="onSubmit()">Submit</button>
+                <button class="btn btn-secondary btn-lg" onclick="onReset()">Reset</button>
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <form class="answer-form">
+            <div class="col span-1-of-3">
+            </div>
+            <div class="col span-2-of-3">
+                <label id="answer"></label>
+            </div>
+        </form>
+    </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
-
-<!--<form method="post" action="#" class="contact-form">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3 g">
-                        <input type=text placeholder="Gods answer">
-                    </div>
-                </form>
-
- <p id="God-answer"></p>-->
