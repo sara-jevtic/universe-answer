@@ -78,3 +78,8 @@ input[type=text] {
 #error {
     color: red;
 }
+
+.btn.btn-secondary.hide {
+    cursor: default;
+    opacity: 0;
+}
