@@ -44,6 +44,27 @@ input[type=text] {
     margin: auto;
 }
 
+.loader {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.disabled {
+    opacity: 0;
+}
+
 #answer {
     font-weight: 200;
     text-align: center;
